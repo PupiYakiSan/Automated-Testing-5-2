@@ -79,5 +79,6 @@ public class AuthTest {
                 .shouldHave(Condition.exactText("Ошибка! Неверно указан логин или пароль"))
                 .shouldBe(Condition.visible);
     }
+    
 
 }
